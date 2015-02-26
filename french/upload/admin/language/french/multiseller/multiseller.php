@@ -38,7 +38,7 @@ $_['heading_title'] = '<b>[MultiMerch]</b> Digital Marketplace';
 $_['text_seller_select'] = 'Sélectionner le vendeur';
 $_['text_shipping_dependent'] = 'Expédition dépendante';
 $_['text_no_results'] = 'Pas de résultat';
-$_['error_permission'] = 'Attention : vous n\'avez pas la permission pour modifier le module!';
+$_['error_permission'] = 'Attention : vous n\'avez pas la permission pour modifier le module !';
 
 $_['ms_error_withdraw_norequests'] = 'Erreur : il n\'y a aucun reversement à effectuer';
 $_['ms_error_withdraw_response'] = 'Erreur : pas de réponse';
@@ -68,7 +68,7 @@ $_['ms_description'] = 'Description';
 
 $_['ms_commission'] = 'Commission';
 $_['ms_commissions_fees'] = 'Commissions & frais';
-$_['ms_commission_' . MsCommission::RATE_SALE] = 'Frais sur ventes';
+$_['ms_commission_' . MsCommission::RATE_SALE] = 'Commissions sur ventes';
 $_['ms_commission_' . MsCommission::RATE_LISTING] = 'Frais de mise en vente';
 $_['ms_commission_' . MsCommission::RATE_SIGNUP] = 'Frais d\'inscription à la plateforme';
 
@@ -411,10 +411,10 @@ $_['ms_seller_groups_column_name'] = 'Nom';
 $_['ms_seller_groups_column_action'] = 'Actions';
 
 $_['ms_catalog_insert_seller_group_heading'] = 'Nouveau groupes vendeurs';
-$_['ms_catalog_edit_seller_group_heading'] = 'Editer Groupes vendeurs';
+$_['ms_catalog_edit_seller_group_heading'] = 'Editer groupes vendeurs';
 
 $_['ms_product_period'] = 'Période en jours d\'affichage de la liste des produits (0 pour illimitée)';
-$_['ms_product_quantity'] = 'Quantité de produit (0 pour aucune limite)';
+$_['ms_product_quantity'] = 'Nombre de produits (0 pour aucune limite)';
 
 $_['ms_error_seller_group_name'] = 'Erreur : le nom doit être compris entre 3 et 32 symboles';
 $_['ms_error_seller_group_default'] = 'Erreur : le groupe vendeur "défaut" ne peut pas être supprimé !';
@@ -550,7 +550,7 @@ $_['ms_mail_product_purchased_comment'] = 'Commentaire : %s';
 $_['ms_transaction_order'] = 'Vente : vente n°%s';
 $_['ms_transaction_sale'] = 'Ventes : %s (-%s commissions)';
 $_['ms_transaction_refund'] = 'Remboursement : %s';
-$_['ms_payment_method'] = 'Méthode de paiemeent';
+$_['ms_payment_method'] = 'Méthode de paiement';
 $_['ms_payment_method_balance'] = 'Solde vendeur';
 $_['ms_payment_method_paypal'] = 'PayPal';
 $_['ms_payment_method_inherit'] = 'Héritez';
