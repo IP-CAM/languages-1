@@ -192,8 +192,8 @@ $_['ms_config_product_included_fields_note'] = 'Fields to be added in the produc
 $_['ms_config_provide_buyerinfo'] = 'Mail buyer information';
 $_['ms_config_provide_buyerinfo_note'] = 'Include buyer address in the Product purchased email';
 
-$_['ms_config_enable_shipping'] = 'Enable shipping';
-$_['ms_config_enable_shipping_note'] = 'New products will be created to require shipping';
+$_['ms_config_enable_shipping'] = 'Enable OpenCart\'s "Shippable" option';
+$_['ms_config_enable_shipping_note'] = 'New products will be created with OpenCart\'s "Shippable" field enabled. With MultiMerch Shipping Addon installed, this will enable shipping functionality.';
 
 $_['ms_config_enable_quantities'] = 'Enable quantities';
 $_['ms_config_enable_quantities_note'] = 'Allow sellers to specify quantities for products';
@@ -331,6 +331,7 @@ $_['ms_seller_change'] = 'Change seller';
 $_['ms_seller_status_' . MsSeller::STATUS_ACTIVE] = 'Active';
 $_['ms_seller_status_' . MsSeller::STATUS_INACTIVE] = 'Inactive';
 $_['ms_seller_status_' . MsSeller::STATUS_DISABLED] = 'Disabled';
+$_['ms_seller_status_' . MsSeller::STATUS_INCOMPLETE] = 'Incomplete';
 $_['ms_seller_status_' . MsSeller::STATUS_DELETED] = 'Deleted';
 $_['ms_seller_status_' . MsSeller::STATUS_UNPAID] = 'Unpaid signup fee';
 
@@ -549,6 +550,7 @@ EOT;
 $_['ms_mail_product_purchased_comment'] = 'Comment: %s';
 
 // Sales - Mail
+$_['ms_transaction_order_created'] = 'Order created';
 $_['ms_transaction_order'] = 'Sale: Order Id #%s';
 $_['ms_transaction_sale'] = 'Sale: %s (-%s commission)';
 $_['ms_transaction_refund'] = 'Refund: %s';

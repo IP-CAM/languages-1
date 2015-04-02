@@ -4,7 +4,7 @@
 $_['ms_seller_combinable_shipping'] = 'This seller offers combined shipping. Combine physical products from this seller for reduced shipping charges.';
 
 $_['ms_tab_shipping_estimation'] = 'Estimate shipping costs';
-$_['ms_select_geo_zone'] = 'Select destination Geo Zone';
+$_['ms_select_geo_zone'] = 'Select destination to calculate estimated shipping costs';
 $_['ms_button_get_rates'] = 'Get Rates';
 $_['ms_no_shipping_to_geo_zone'] = 'No shipping to the selected Geo Zone is available.';
 
